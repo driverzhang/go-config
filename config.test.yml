@@ -1,0 +1,11 @@
+#本地测试文件
+debug: true
+# log的debug模式, 开启后会使用颜色, 只应该在本地打开debug模式
+log_debug: true
+# grpc监听地址
+grpc_addr: ":8081"
+# http监听地址
+http_addr: ":8080"
+
+mysql:
+  bamboo_website: "root:123456@tcp(127.0.0.1：3306)/nodezhang"
